@@ -1,0 +1,199 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>Lux Vitae Eco — Where Nature Meets Neighborhood</title>
+  <script src="https://cdn.tailwindcss.com"></script>
+  <style>
+    @import url('https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700&display=swap');
+    body { font-family: 'Inter', sans-serif; }
+    .smooth-shadow { box-shadow: 0 10px 30px -10px rgba(0, 0, 0, 0.08); }
+  </style>
+</head>
+<body class="bg-white text-gray-800">
+
+  <!-- Fixed Header -->
+  <header class="fixed top-0 left-0 w-full bg-white border-b border-stone-200 z-50 px-6 py-4 shadow-sm">
+    <div class="max-w-7xl mx-auto flex justify-between items-center">
+      <div class="font-bold text-xl text-lime-700">Lux Vitae Eco</div>
+      <nav class="hidden md:flex space-x-8 text-sm font-medium">
+        <a href="#vision" class="hover:text-lime-600 transition">Vision</a>
+        <a href="#design" class="hover:text-lime-600 transition">Design</a>
+        <a href="#development" class="hover:text-lime-600 transition">Development</a>
+        <a href="#partners" class="hover:text-lime-600 transition">Partners</a>
+      </nav>
+      <a href="#contact" class="bg-lime-600 hover:bg-lime-700 text-white px-5 py-2 rounded-lg font-medium transition">Contact</a>
+    </div>
+  </header>
+
+  <!-- Hero Section -->
+  <section id="hero" class="pt-32 pb-20 px-6 bg-stone-50 relative overflow-hidden">
+    <div class="max-w-4xl mx-auto text-center relative z-10">
+      <h1 class="text-4xl md:text-5xl lg:text-6xl font-bold text-gray-900 leading-tight mb-6">
+        Where Nature Meets <span class="text-lime-600">Neighborhood</span>
+      </h1>
+      <p class="text-lg md:text-xl text-gray-600 mb-8 max-w-3xl mx-auto">
+        Eco-homes rooted in native landscapes — sustainably designed, beautifully connected, just minutes from urban energy.
+      </p>
+      <div class="flex flex-col sm:flex-row justify-center gap-4">
+        <a href="#design" class="bg-lime-600 hover:bg-lime-700 text-white px-8 py-4 rounded-xl font-medium transition transform hover:-translate-y-1 smooth-shadow">
+          Explore Designs
+        </a>
+        <a href="#contact" class="border border-stone-300 bg-white hover:bg-stone-50 text-gray-700 px-8 py-4 rounded-xl font-medium transition transform hover:-translate-y-1 smooth-shadow">
+          Start Your Journey
+        </a>
+      </div>
+    </div>
+    <div class="absolute -bottom-10 -right-20 w-80 h-80 bg-amber-200 rounded-full blur-3xl opacity-30"></div>
+    <div class="absolute -top-20 -left-20 w-96 h-96 bg-lime-200 rounded-full blur-3xl opacity-20"></div>
+  </section>
+
+  <!-- Vision Section -->
+  <section id="vision" class="py-20 px-6 bg-white">
+    <div class="max-w-5xl mx-auto text-center">
+      <h2 class="text-3xl font-bold text-gray-900 mb-4">Our Vision</h2>
+      <p class="text-lg text-gray-600 max-w-3xl mx-auto mb-12">
+        We believe the future of housing lives at the boundary — where native landscapes meet urban energy. Our homes nurture people and planet, without asking you to leave the city behind.
+      </p>
+      <div class="grid md:grid-cols-3 gap-8">
+        <div class="p-6 rounded-2xl bg-stone-50 smooth-shadow hover:shadow-lg transition">
+          <div class="w-14 h-14 bg-lime-100 rounded-full flex items-center justify-center mx-auto mb-5">
+            <svg xmlns="http://www.w3.org/2000/svg" width="28" height="28" viewBox="0 0 24 24" fill="none" stroke="#16a34a" stroke-width="1.5" class="lucide lucide-tree-pine"><path d="M12 2v7"/><path d="M18.5 10.5 12 17l-6.5-6.5C4 9 4 7 5.5 5.5S9 4 12 4s5 .5 6.5 2S20 9 18.5 10.5Z"/><path d="M12 17v5"/></svg>
+          </div>
+          <h3 class="text-xl font-bold text-gray-800 mb-3">🌱 Rooted in Place</h3>
+          <p class="text-gray-600">Honor indigenous ecologies, local materials, and site-specific wisdom.</p>
+        </div>
+        <div class="p-6 rounded-2xl bg-stone-50 smooth-shadow hover:shadow-lg transition">
+          <div class="w-14 h-14 bg-amber-100 rounded-full flex items-center justify-center mx-auto mb-5">
+            <svg xmlns="http://www.w3.org/2000/svg" width="28" height="28" viewBox="0 0 24 24" fill="none" stroke="#b45309" stroke-width="1.5" class="lucide lucide-border-inner"><rect x="4" y="4" width="16" height="16" rx="2"/><rect x="9" y="9" width="6" height="6"/></svg>
+          </div>
+          <h3 class="text-xl font-bold text-gray-800 mb-3">🏙️ At the Boundary</h3>
+          <p class="text-gray-600">Build in transition zones — where urban meets wild, not deep rural.</p>
+        </div>
+        <div class="p-6 rounded-2xl bg-stone-50 smooth-shadow hover:shadow-lg transition">
+          <div class="w-14 h-14 bg-lime-100 rounded-full flex items-center justify-center mx-auto mb-5">
+            <svg xmlns="http://www.w3.org/2000/svg" width="28" height="28" viewBox="0 0 24 24" fill="none" stroke="#16a34a" stroke-width="1.5" class="lucide lucide-handshake"><path d="M17 15c-1.333-1.333-4-4-4-4s-1.333 2.667-4 4c-2.667 1.333-4 4-4 4s2.667 1.333 4 4c2.667-2.667 4-4 4-4s2.667 1.333 4 4c1.333-1.333 2.667-4 2.667-4s-1.333-2.667-2.667-4z"/></svg>
+          </div>
+          <h3 class="text-xl font-bold text-gray-800 mb-3">🤝 Connected Living</h3>
+          <p class="text-gray-600">Quality of life = nature + convenience. No isolation. No compromise.</p>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- Design Section -->
+  <section id="design" class="py-20 px-6 bg-stone-100">
+    <div class="max-w-6xl mx-auto">
+      <div class="grid md:grid-cols-2 gap-12 items-center">
+        <div>
+          <h2 class="text-3xl font-bold text-gray-900 mb-4">Eco-Home Design for Light, Life & Legacy</h2>
+          <p class="text-gray-600 mb-6">
+            Spaces shaped by sun, site, and sustainability — built to nurture people and place for generations.
+          </p>
+          <ul class="space-y-3 text-gray-700">
+            <li class="flex items-start">
+              <span class="w-2 h-2 bg-lime-500 rounded-full mt-2 mr-3 flex-shrink-0"></span>
+              Passive solar + natural ventilation
+            </li>
+            <li class="flex items-start">
+              <span class="w-2 h-2 bg-lime-500 rounded-full mt-2 mr-3 flex-shrink-0"></span>
+              Locally sourced, non-toxic materials
+            </li>
+            <li class="flex items-start">
+              <span class="w-2 h-2 bg-lime-500 rounded-full mt-2 mr-3 flex-shrink-0"></span>
+              Seamless indoor-outdoor flow
+            </li>
+          </ul>
+        </div>
+        <div class="bg-white p-6 rounded-2xl smooth-shadow">
+          <img src="https://via.placeholder.com/600x400/f0fdf4/16a34a?text=Eco-Home+Design" alt="Eco-Home Design" class="w-full rounded-xl" />
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- Development Section -->
+  <section id="development" class="py-20 px-6 bg-white">
+    <div class="max-w-6xl mx-auto">
+      <h2 class="text-3xl font-bold text-center text-gray-900 mb-4">How We Bring Eco-Homes to Life</h2>
+      <p class="text-lg text-gray-600 text-center max-w-3xl mx-auto mb-12">
+        Responsibly. Precisely. Together.
+      </p>
+      <div class="grid md:grid-cols-3 gap-8">
+        <div class="text-center p-6">
+          <div class="w-16 h-16 bg-lime-100 rounded-full flex items-center justify-center mx-auto mb-4">
+            <svg xmlns="http://www.w3.org/2000/svg" width="32" height="32" viewBox="0 0 24 24" fill="none" stroke="#16a34a" stroke-width="1.5" class="lucide lucide-map-pin"><path d="M21 10c0 7-9 13-9 13s-9-6-9-13a9 9 0 0 1 18 0z"/><circle cx="12" cy="10" r="3"/></svg>
+          </div>
+          <h3 class="text-xl font-bold text-gray-800 mb-2">🌱 Responsibly</h3>
+          <p class="text-gray-600">Rooted in place & planet — we design with the land, not against it.</p>
+        </div>
+        <div class="text-center p-6">
+          <div class="w-16 h-16 bg-amber-100 rounded-full flex items-center justify-center mx-auto mb-4">
+            <svg xmlns="http://www.w3.org/2000/svg" width="32" height="32" viewBox="0 0 24 24" fill="none" stroke="#b45309" stroke-width="1.5" class="lucide lucide-ruler"><path d="M8 2v4"/><path d="M16 2v4"/><path d="M21 8H3"/><path d="M18 8v12H6V8"/><path d="M6 12H4"/><path d="M6 16H4"/></svg>
+          </div>
+          <h3 class="text-xl font-bold text-gray-800 mb-2">🧱 Precisely</h3>
+          <p class="text-gray-600">Engineered for performance — prefab, tested, verified.</p>
+        </div>
+        <div class="text-center p-6">
+          <div class="w-16 h-16 bg-lime-100 rounded-full flex items-center justify-center mx-auto mb-4">
+            <svg xmlns="http://www.w3.org/2000/svg" width="32" height="32" viewBox="0 0 24 24" fill="none" stroke="#16a34a" stroke-width="1.5" class="lucide lucide-users"><path d="M16 21v-2a4 4 0 0 0-4-4H6a4 4 0 0 0-4 4v2"/><circle cx="9" cy="7" r="4"/><path d="M22 21v-2a4 4 0 0 0-3-3.87"/><path d="M16 3.13a4 4 0 0 1 0 7.75"/></svg>
+          </div>
+          <h3 class="text-xl font-bold text-gray-800 mb-2">🤝 Together</h3>
+          <p class="text-gray-600">Collaborative from concept to keys — no one gets left out.</p>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- Partners Section -->
+  <section id="partners" class="py-20 px-6 bg-stone-100">
+    <div class="max-w-4xl mx-auto text-center">
+      <h2 class="text-3xl font-bold text-gray-900 mb-4">Our Network of Partners</h2>
+      <p class="text-xl text-lime-800 italic mb-6">The right collaborators. The right place. The right way.</p>
+      <p class="text-gray-600 mb-10">
+        Whether you’re a homeowner or developer — we match you with vetted local architects, builders, and eco-experts to bring your vision to life, stress-free.
+      </p>
+      <p class="text-lg font-medium text-gray-800 mb-8">You bring the vision. We bring the team.</p>
+      <div class="flex flex-col sm:flex-row justify-center gap-4">
+        <a href="#contact" class="bg-lime-600 hover:bg-lime-700 text-white px-6 py-3 rounded-lg font-medium transition">Start Your Consultation</a>
+        <a href="#" class="border border-lime-600 text-lime-600 hover:bg-lime-50 px-6 py-3 rounded-lg font-medium transition">Join Our Network</a>
+        <a href="#" class="border border-stone-400 text-stone-600 hover:bg-stone-50 px-6 py-3 rounded-lg font-medium transition">Meet Our Partners →</a>
+      </div>
+    </div>
+  </section>
+
+  <!-- Footer -->
+  <footer id="contact" class="bg-gray-900 text-white py-12 px-6">
+    <div class="max-w-6xl mx-auto grid md:grid-cols-3 gap-10">
+      <div>
+        <div class="font-bold text-xl text-lime-400 mb-4">Lux Vitae Eco</div>
+        <p class="text-gray-300 text-sm">
+          Where nature meets neighborhood — sustainable homes, beautifully connected.
+        </p>
+      </div>
+      <div>
+        <h4 class="font-bold text-white mb-4">Quick Links</h4>
+        <ul class="space-y-2 text-sm text-gray-300">
+          <li><a href="#vision" class="hover:text-lime-300 transition">Our Vision</a></li>
+          <li><a href="#design" class="hover:text-lime-300 transition">Eco-Design</a></li>
+          <li><a href="#development" class="hover:text-lime-300 transition">Development</a></li>
+          <li><a href="#partners" class="hover:text-lime-300 transition">Partner With Us</a></li>
+        </ul>
+      </div>
+      <div>
+        <h4 class="font-bold text-white mb-4">Contact</h4>
+        <address class="not-italic text-sm text-gray-300 space-y-1">
+          <div>hello@luxvitaeeco.com</div>
+          <div>+1 (555) 123-4567</div>
+          <div>Portland, OR — serving the Pacific NW</div>
+        </address>
+      </div>
+    </div>
+    <div class="border-t border-gray-800 mt-10 pt-6 text-center text-gray-400 text-sm">
+      &copy; 2025 Lux Vitae Eco. Building greener, together.
+    </div>
+  </footer>
+
+</body>
+</html>
